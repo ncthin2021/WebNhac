@@ -1,0 +1,118 @@
+/* dấu * là chọn tất cả các phần tử trong prọect*/
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    background-color: #14182a;
+    font-weight: normal;
+}
+/* nên đặt class cho thẻ section vì thẻ này dùng nhiều lần*/
+header section.main footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+.logo{
+    float: left;
+    font-size: 24px;
+    line-height: 28px;
+}
+.ms_top_trend{
+    float: right;
+    font-size: 16px;
+}
+.ms_color{
+    color: #3bc8e7;
+}
+header{
+    background-color: #1b2039;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 30px;
+}
+.ms_heading{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.rows{
+    float: left;
+    width: 100%;
+}
+.item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.item h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item p{
+    font-size: 14px;
+    margin: 0;
+}
+.item img{
+    border-radius: 15px;
+}
+.main{
+    margin-top: 50px;
+}
+.paginator{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bar{
+    width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bar a{
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bar .current{
+    background-color: black;
+}
+hr{
+    border: none;
+    border-top: 1px solid #FFFFFF;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about{
+    text-align: center;
+}
+.about h1{
+    font-size: 32px;
+}
+.about h4{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about h6{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about p{
+    line-height: 1.5;
+}
+.third{
+    width: 33.33%;
+    float: left;
+}
